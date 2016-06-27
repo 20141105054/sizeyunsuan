@@ -136,11 +136,11 @@
                                     <action selector="clear1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aun-2Q-ukf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAe-KX-w6s">
-                                <rect key="frame" x="200" y="393" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBO-rj-sWN">
+                                <rect key="frame" x="145" y="393" width="30" height="30"/>
                                 <state key="normal" title="."/>
                                 <connections>
-                                    <action selector="dian:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1lr-k2-3sO"/>
+                                    <action selector="dian:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JSg-1P-csV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -152,7 +152,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="243" y="371"/>
+            <point key="canvasLocation" x="88" y="371"/>
         </scene>
     </scenes>
 </document>

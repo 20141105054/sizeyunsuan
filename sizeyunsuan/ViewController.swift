@@ -9,64 +9,79 @@
 import UIKit
 
 class ViewController: UIViewController {
-    /*@IBAction func dian(sender: AnyObject) {
-        x.text=x.text!+"."
+    @IBAction func dian(sender: AnyObject) {
+        if(judgepoint==false)
+        {
+            x.text=x.text!+"."
+            judgepoint=true
+        }
         
     }
     @IBAction func num0(sender: AnyObject) {
         x.text=x.text!+"0"
         
-    }*/
+    }
  
     @IBAction func chu(sender: AnyObject) {
         if flag==0{
-            temp=(Int)(x.text!)!
+            temp=(Double)(x.text!)!
             x.text=""
         }
+        x.text=""
+        judgepoint=false
         flag=4
     }
     @IBAction func cheng(sender: AnyObject) {
         if flag==0{
-            temp=(Int)(x.text!)!
+            temp=(Double)(x.text!)!
             x.text=""
         }
+        x.text=""
+        judgepoint=false
         flag=3
     }
     @IBAction func jia(sender: AnyObject) {
         if flag==0{
-            temp=(Int)(x.text!)!
+            temp=(Double)(x.text!)!
             x.text=""
         }
+        x.text=""
+        judgepoint=false
         flag=2
     }
     @IBAction func clear1(sender: AnyObject) {
+        temp=0
         x.text=""
+        flag=0
+        judgepoint=false
     }
     @IBAction func jian(sender: AnyObject) {
         if flag==0{
-        temp=(Int)(x.text!)!
+        temp=(Double)(x.text!)!
         x.text=""
         }
+        x.text=""
+        judgepoint=false
         flag=1
     }
     @IBAction func dengyu(sender: AnyObject) {
         switch flag{
         case 1:
-            temp=temp-(Int)(x.text!)!
+            temp=temp-(Double)(x.text!)!
             x.text="(\(temp))"
+
         case 2:
-            temp=temp+(Int)(x.text!)!
+            temp=temp+(Double)(x.text!)!
             x.text="(\(temp))"
         case 3:
-            temp=temp*(Int)(x.text!)!
+            temp=temp*(Double)(x.text!)!
             x.text="(\(temp))"
         case 4:
-            temp=temp/(Int)(x.text!)!
+            temp=temp/(Double)(x.text!)!
             x.text="(\(temp))"
         default:
             break
         }
-        
     }
     @IBAction func num9(sender: AnyObject) {
         x.text=x.text!+"9"
@@ -96,8 +111,9 @@ class ViewController: UIViewController {
         x.text=x.text!+"2"
     }
     @IBOutlet weak var x: UILabel!
-    var flag:Int=0
-    var temp=0
+    var flag=0
+    var temp=0.0
+    var judgepoint:Bool=false;
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -108,4 +124,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 }
+
+
+
+
 
