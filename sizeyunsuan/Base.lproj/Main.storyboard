@@ -81,7 +81,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aTD-5g-uq5">
-                                <rect key="frame" x="20" y="51" width="280" height="74"/>
+                                <rect key="frame" x="12" y="71" width="280" height="55"/>
                                 <color key="backgroundColor" red="0.1757607984" green="0.1757607984" blue="0.1757607984" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -143,6 +143,13 @@
                                     <action selector="dian:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JSg-1P-csV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j87-l7-R5d">
+                                <rect key="frame" x="35" y="497" width="30" height="30"/>
+                                <state key="normal" title="－"/>
+                                <connections>
+                                    <action selector="fuhao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Dw-Yl-wLU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -152,7 +159,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="88" y="371"/>
+            <point key="canvasLocation" x="198" y="151"/>
         </scene>
     </scenes>
 </document>

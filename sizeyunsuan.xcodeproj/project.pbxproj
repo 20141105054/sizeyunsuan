@@ -484,6 +484,7 @@
 				647C64D41D1B710700AE5399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		647C64D51D1B710700AE5399 /* Build configuration list for PBXNativeTarget "sizeyunsuanTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				647C64D71D1B710700AE5399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		647C64D81D1B710700AE5399 /* Build configuration list for PBXNativeTarget "sizeyunsuanUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				647C64DA1D1B710700AE5399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

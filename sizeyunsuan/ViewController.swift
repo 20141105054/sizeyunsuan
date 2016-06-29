@@ -9,13 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBAction func fuhao(sender: AnyObject) {
+        if flag==0{
+            temp=(Double)(x.text!)!
+            temp=(-temp)
+            x.text="\(temp)"
+        }
+        
+        
+    }
     @IBAction func dian(sender: AnyObject) {
         if(judgepoint==false)
         {
             x.text=x.text!+"."
             judgepoint=true
         }
-        
+      
     }
     @IBAction func num0(sender: AnyObject) {
         x.text=x.text!+"0"
@@ -79,6 +88,7 @@ class ViewController: UIViewController {
         case 4:
             temp=temp/(Double)(x.text!)!
             x.text="(\(temp))"
+            
         default:
             break
         }
