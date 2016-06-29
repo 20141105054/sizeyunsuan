@@ -9,6 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBAction func tuige(sender: AnyObject) {
+        var hd=x.text!
+        if  hd != ""
+        {
+            hd.removeAtIndex(hd.endIndex.predecessor())
+            x.text=hd
+            
+        }
+        else
+        {
+            x.text="0"
+        }
+    }
     @IBAction func fuhao(sender: AnyObject) {
         if flag==0{
             temp=(Double)(x.text!)!

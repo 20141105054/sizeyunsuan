@@ -82,7 +82,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aTD-5g-uq5">
                                 <rect key="frame" x="12" y="71" width="280" height="55"/>
-                                <color key="backgroundColor" red="0.1757607984" green="0.1757607984" blue="0.1757607984" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.010388785817518502" green="0.014085867605418566" blue="0.021290085078534027" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -136,18 +136,25 @@
                                     <action selector="clear1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aun-2Q-ukf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBO-rj-sWN">
-                                <rect key="frame" x="145" y="393" width="30" height="30"/>
-                                <state key="normal" title="."/>
-                                <connections>
-                                    <action selector="dian:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JSg-1P-csV"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j87-l7-R5d">
-                                <rect key="frame" x="35" y="497" width="30" height="30"/>
+                                <rect key="frame" x="200" y="153" width="30" height="30"/>
                                 <state key="normal" title="－"/>
                                 <connections>
                                     <action selector="fuhao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Dw-Yl-wLU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvj-XM-phJ">
+                                <rect key="frame" x="108" y="153" width="43" height="30"/>
+                                <state key="normal" title="delete"/>
+                                <connections>
+                                    <action selector="tuige:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Oo-eS-whP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBO-rj-sWN">
+                                <rect key="frame" x="200" y="393" width="30" height="30"/>
+                                <state key="normal" title="."/>
+                                <connections>
+                                    <action selector="dian:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JSg-1P-csV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -159,7 +166,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="198" y="151"/>
+            <point key="canvasLocation" x="198" y="137"/>
         </scene>
     </scenes>
 </document>
