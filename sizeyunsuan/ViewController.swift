@@ -9,6 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBAction func baifen(sender: AnyObject) {
+        /*if flag==0{
+            temp=(Double)(x.text!)!
+            x.text=""
+        }
+        x.text=""
+        judgepoint=false
+        flag=5*/
+        if flag==0{
+            temp=(Double)(x.text!)!
+            temp=temp/100
+            x.text="\(temp)"
+        }
+    }
     @IBAction func tuige(sender: AnyObject) {
         var hd=x.text!
         if  hd != ""
@@ -101,8 +115,7 @@ class ViewController: UIViewController {
         case 4:
             temp=temp/(Double)(x.text!)!
             x.text="(\(temp))"
-            
-        default:
+            default:
             break
         }
     }

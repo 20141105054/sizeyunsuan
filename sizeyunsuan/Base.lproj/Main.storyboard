@@ -150,6 +150,13 @@
                                     <action selector="tuige:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Oo-eS-whP"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsQ-YQ-2oz">
+                                <rect key="frame" x="262" y="461" width="30" height="30"/>
+                                <state key="normal" title="％"/>
+                                <connections>
+                                    <action selector="baifen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="90v-ca-erT"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBO-rj-sWN">
                                 <rect key="frame" x="200" y="393" width="30" height="30"/>
                                 <state key="normal" title="."/>
